@@ -47,5 +47,5 @@ OptionSettings:
     ConnectionDrainingEnabled: true
     ConnectionDrainingTimeout: '20'
 Tags: 
-  Cluster: 
-  Role: 
+  Cluster: stag-appname-role-s1
+  Role: stag-appname-role-s1
