@@ -27,7 +27,7 @@ OptionSettings:
    LogPublicationControl: true
  aws:elasticbeanstalk:sns:topics: 
    Notification Endpoint: ''
-SolutionStack: 64bit Amazon Linux 2015.03 v1.4.3 running Docker 1.6.2
+SolutionStack: 64bit Amazon Linux 2014.09 v1.2.0 running Docker 1.3.3
 Tags: 
  Cluster: stag-appname-app-s1
  Role: stag-appname-app-s1
