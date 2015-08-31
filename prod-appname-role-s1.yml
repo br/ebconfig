@@ -14,8 +14,9 @@ OptionSettings:
     EC2KeyName: default
     IamInstanceProfile: EbApp
     InstanceType: m1.small
-    RootVolumeSize: '20'
+    RootVolumeSize: '80'
     RootVolumeType: gp2
+    SecurityGroups: prod-yourstackhere
   aws:autoscaling:trigger: 
     BreachDuration: '1'
     LowerThreshold: '20'
