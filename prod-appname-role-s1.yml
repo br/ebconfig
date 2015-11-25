@@ -50,5 +50,5 @@ OptionSettings:
     ConnectionDrainingEnabled: true
     ConnectionDrainingTimeout: '20'
 Tags: 
-  Cluster: prod-appname-role-s1
+  Cluster: prod-appname
   Role: prod-appname-role-s1
