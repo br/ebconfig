@@ -1,6 +1,6 @@
 AWSConfigurationTemplateVersion: 1.1.0.0
 EnvironmentConfigurationMetadata: 
- Description: Configuration created from the EB CLI using "eb config save".
+ Description: 64bit Amazon Linux 2015.09 v2.0.4 running Docker 1.7.1
 EnvironmentTier: 
  Name: WebServer
  Type: Standard
@@ -21,8 +21,6 @@ OptionSettings:
    BatchSize: '100'
    BatchSizeType: Percentage
    Timeout: '600'
- aws:elasticbeanstalk:environment: 
-   EnvironmentType: SingleInstance
  aws:elasticbeanstalk:hostmanager: 
    LogPublicationControl: true
  aws:elasticbeanstalk:sns:topics: 
