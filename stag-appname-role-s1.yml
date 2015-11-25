@@ -27,5 +27,5 @@ OptionSettings:
    Notification Endpoint: ''
 SolutionStack: 64bit Amazon Linux 2014.09 v1.2.0 running Docker 1.3.3
 Tags: 
- Cluster: stag-appname-app-s1
+ Cluster: stag-appname
  Role: stag-appname-app-s1
