@@ -31,6 +31,8 @@ OptionSettings:
   aws:elasticbeanstalk:application: 
     Application Healthcheck URL: "/up/elb"
   aws:elasticbeanstalk:application:environment: 
+   MIX_ENV: prod
+   ROLE: app
   aws:elasticbeanstalk:command: 
     BatchSize: '100'
     BatchSizeType: Percentage
@@ -48,5 +50,5 @@ OptionSettings:
     ConnectionDrainingEnabled: true
     ConnectionDrainingTimeout: '20'
 Tags: 
-  Cluster: prod-appname-role-s1
+  Cluster: prod-appname
   Role: prod-appname-role-s1
