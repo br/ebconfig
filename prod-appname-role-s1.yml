@@ -4,7 +4,7 @@ EnvironmentConfigurationMetadata:
 EnvironmentTier: 
   Name: WebServer
   Type: Standard
-SolutionStack: 64bit Amazon Linux 2014.09 v1.2.0 running Docker 1.3.3
+SolutionStack: 64bit Amazon Linux 2015.09 v2.0.4 running Docker 1.7.1
 OptionSettings: 
   aws:autoscaling:asg: 
     Cooldown: '120'
